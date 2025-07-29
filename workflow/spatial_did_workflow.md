@@ -76,7 +76,7 @@ Create 3 buffer layers around each BRT stop:
 
 ### ArcGIS Tools:
 Use **Field Calculator** or Python (`arcpy.CalculateField`) with an expression like:
-
+Python
 def classify(pct):
     if pct >= 50:
         return "Treated"
@@ -84,6 +84,7 @@ def classify(pct):
         return "Control"
     else:
         return "Partial"
+
 ---
 
 ## **Step 5: Tag Year and BRT Phase**
