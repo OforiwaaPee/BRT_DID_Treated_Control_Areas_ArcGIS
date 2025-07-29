@@ -8,18 +8,18 @@ Transport Analysis Zones (TAZ) shapefile
 WorldPop population raster (2000, 2014, 2019)
 Household Travel Surveys (HTS) – 2000, 2014, 2019
 
-Tools Used:
-ArcGIS Pro 3.x
-Spatial Analyst Extension
-Python (ArcPy or standalone scripts)
+*Tools Used*:
+- ArcGIS Pro 3.x
+- Spatial Analyst Extension
+- Python (ArcPy or standalone scripts)
 
 ## Step 2: Create Buffer Zones Around BRT Stops
 Create 3 buffer layers around each BRT stop:
 
 Buffer Size	Purpose
-500 meters	Direct walk access zone
-1 km	Moderate walk access zone
-2 km	Extended access zone
+- 500 meters	Direct walk access zone
+- 1 km	Moderate walk access zone
+- 2 km	Extended access zone
 
 ArcGIS Tool:
 - Tool: Buffer (Analysis Tools > Proximity > Buffer)
