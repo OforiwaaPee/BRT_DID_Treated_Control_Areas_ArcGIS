@@ -2,7 +2,7 @@
 
 # Spatial DiD Analysis of the Rea Vaya BRT System
 
-This repository contains the spatial analysis workflow used to assess the population served by the Rea Vaya BRT system in Johannesburg using a Difference-in-Differences (DiD) framework.
+This repository contains the spatial analysis workflow used to assess the population served (Treated and control areas) by the Rea Vaya BRT system in Johannesburg using a Difference-in-Differences (DiD) framework.
 
 ## Repository Structure
 
