@@ -85,7 +85,6 @@ def classify(pct):
         return "Control"
     else:
         return "Partial"
-
 ---
 
 ## Step 5: Tag Year and BRT Phase
