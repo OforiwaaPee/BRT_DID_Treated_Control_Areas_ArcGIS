@@ -85,9 +85,7 @@ def classify(pct):
         return "Control"
     else:
         return "Partial"
-
-If this doesn't solve your issue, feel free to paste the exact markdown you're using so I can pinpoint the problem.
-
+` ``` `
 ---
 
 ## **Step 5: Tag Year and BRT Phase**
