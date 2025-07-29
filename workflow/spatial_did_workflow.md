@@ -76,7 +76,8 @@ Create 3 buffer layers around each BRT stop:
 
 ### ArcGIS Tools:
 Use **Field Calculator** or Python (`arcpy.CalculateField`) with an expression like:
-Python
+*Python*
+
 def classify(pct):
     if pct >= 50:
         return "Treated"
