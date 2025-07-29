@@ -1,4 +1,4 @@
-# BRT_DID_Treated_Control_Areas_ArcGIS
+# BRT_DID_Treated_Control_Areas
 
 # Spatial DiD Analysis of the Rea Vaya BRT System
 
