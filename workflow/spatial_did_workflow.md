@@ -22,12 +22,12 @@ Buffer Size	Purpose
 2 km	Extended access zone
 
 ArcGIS Tool:
-  Tool: Buffer (Analysis Tools > Proximity > Buffer)
-  Parameters:
-  Input: BRT stop shapefile
-  Distance: 500m, 1000m, 2000m
-  Dissolve: ALL
-  Output: buffer_500m.shp, etc.
+- Tool: Buffer (Analysis Tools > Proximity > Buffer)
+- Parameters:
+- Input: BRT stop shapefile
+- Distance: 500m, 1000m, 2000m
+- Dissolve: ALL
+- Output: buffer_500m.shp, etc.
 
 
 
