@@ -86,7 +86,7 @@ def classify(pct):
         return "Partial"
 ---
 
-## Step 5: Tag Year and BRT Phase
+## **Step 5: Tag Year and BRT Phase**
 
 Add two fields to your classified table:
 
