@@ -4,7 +4,7 @@ This workflow describes the spatial analysis process used to evaluate the impact
 
 ---
 
-## 📍 Step 1: Prepare Input Data
+## Step 1: Prepare Input Data
 
 ### Required Datasets:
 - BRT stop locations (Phases 1A and 1B)
@@ -19,7 +19,7 @@ This workflow describes the spatial analysis process used to evaluate the impact
 
 ---
 
-## 🚏 Step 2: Create Buffer Zones Around BRT Stops
+## Step 2: Create Buffer Zones Around BRT Stops
 
 Create 3 buffer layers around each BRT stop:
 
@@ -38,7 +38,7 @@ Create 3 buffer layers around each BRT stop:
 
 ---
 
-## 🧮 Step 3: Calculate % of TAZ Population Within Each Buffer
+## Step 3: Calculate % of TAZ Population Within Each Buffer
 
 ### Steps:
 
@@ -67,7 +67,7 @@ Create 3 buffer layers around each BRT stop:
 
 ---
 
-## 🧪 Step 4: Classify Treatment and Control Areas
+## Step 4: Classify Treatment and Control Areas
 
 ### Classification Logic:
 - **Treated**: TAZs with ≥50% of population served by a buffer
@@ -88,7 +88,7 @@ def classify(pct):
 
 ---
 
-## 🧷 Step 5: Tag Year and BRT Phase
+## Step 5: Tag Year and BRT Phase
 
 Add two fields to your classified table:
 
@@ -102,7 +102,7 @@ This supports a **staggered DiD framework**, where treatment varies over time an
 
 ---
 
-## 📦 Step 6: Export Final Classification Table
+## Step 6: Export Final Classification Table
 
 Export a clean summary table at the TAZ level. It should include:
 
@@ -116,7 +116,7 @@ You’ll later join this table with your Household Travel Survey (HTS) microdata
 
 ---
 
-## 🔁 Step 7: Link with HTS Microdata
+## Step 7: Link with HTS Microdata
 
 Join the classified TAZ table to HTS datasets:
 
@@ -128,7 +128,7 @@ This step is often done in Python, R, or Stata depending on your modeling enviro
 
 ---
 
-## 📊 Step 8: Create Final Maps and Visualizations
+## Step 8: Create Final Maps and Visualizations
 
 Using ArcGIS:
 
@@ -140,7 +140,7 @@ Export your maps as `.png` or `.pdf` and place them in a `maps/` folder in your 
 
 ---
 
-## 📝 References
+## References
 
 - **WorldPop Population Data**: [https://www.worldpop.org/](https://www.worldpop.org/)
 - **ArcGIS Pro Tools**: [https://pro.arcgis.com/](https://pro.arcgis.com/)
